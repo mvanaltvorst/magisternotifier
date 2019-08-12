@@ -1,0 +1,11 @@
+[Unit]
+Description=Runs service every time interval
+Requires=notifymagister.service
+
+[Timer]
+Unit=notifymagister.service
+OnUnitInactiveSec=15m
+OnBootSec=10s
+
+[Install]
+WantedBy=timers.target

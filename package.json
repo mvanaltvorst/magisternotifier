@@ -1,0 +1,11 @@
+{
+  "name": "magister-notifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maurits van Altvorst",
+  "license": "MIT",
+  "dependencies": {
+    "node-notifier": "^5.4.1",
+    "puppeteer": "^1.19.0"
+  }
+}

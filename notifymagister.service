@@ -1,0 +1,6 @@
+[Unit]
+Description=notify magister updates
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/node /home/mox/Documents/devel/JS/magister/index.js
